@@ -5,7 +5,7 @@ import os
 from discord.ui import Button, View
 from googleapiclient.discovery import build
 
-youtube_api_key = 'AIzaSyAgZ3rxMZWji3S51TCM7PYEEQAdvNnumQM'
+youtube_api_key = 'INSERT YOUTUBE API KEY'
 daily_dose_playlist_id = 'PLlUZ3i-FUgHqk9-C-Fw_C6YsvTyx2c8nc'
 pamela_reif_playlist_id = 'UUhVRfsT_ASBZk10o0An7Ucg'
 youtube = build('youtube', 'v3', developerKey=youtube_api_key)
